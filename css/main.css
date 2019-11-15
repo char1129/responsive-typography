@@ -36,7 +36,8 @@ article header {
 
 article header p {
   font-style: italic;
-  margin-bottom: 1.3rem;
+  margin: 0;
+  padding-bottom: 1.3rem;
 }
 
 article > p:last-child {
@@ -60,7 +61,7 @@ body {
 }
 
 article p {
-  margin: 0 0 1.3rem;
+  margin: 1.3rem 0;
 }
 
 article ol {
@@ -74,6 +75,14 @@ article ol {
     font-size: 110%;
     line-height: 1.4;
     margin: 0 0 1.4rem;
+  }
+
+  article {
+    margin: 0 auto;
+  }
+
+  article p {
+    margin: 1.5rem 0 1.4rem;
   }
 
 }
